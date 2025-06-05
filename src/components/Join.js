@@ -38,7 +38,7 @@ function Join(props) {
 
     // 서버측에 POST 방식으로 데이터 값을 전달한다.
     try{
-      await axios.post('https://port-0-backend-mbiobig1cd0dc4c0.sel4.cloudtype.app/register', {
+      await axios.post('https://port-0-backend-mbiobig1cd0dc4c0.sel4.cloudtype.app/gp_register', {
         username: form.username,
         password: form.password,
         tel: form.tel,
