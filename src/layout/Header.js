@@ -42,7 +42,7 @@ function Header(props) {
         </button>
 
         <ul className='gnb'>
-          <li><Link to='/ginipet' title='지니펫 쇼핑몰' onClick={() => {setMenuOpen(false)}}>지니펫 쇼핑몰</Link></li>
+          <li><Link to='/' title='지니펫 쇼핑몰' onClick={() => {setMenuOpen(false)}}>지니펫 쇼핑몰</Link></li>
           <li><Link to='/intro' title='브랜드 소개' onClick={() => {setMenuOpen(false)}}>브랜드 소개</Link></li>
           <li><Link to='/info' title='반려견 정보' onClick={() => {setMenuOpen(false)}}>반려견 정보</Link></li>
           <li><Link to='/event' title='이벤트' onClick={() => {setMenuOpen(false)}}>이벤트</Link></li>
@@ -50,8 +50,8 @@ function Header(props) {
         </ul>
 
         <ul className='lnb'>
-          <li><Link to='/login' title='로그인' onClick={() => {setMenuOpen(false)}}>로그인</Link></li>
-          <li><Link to='/register' title='회원가입' onClick={() => {setMenuOpen(false)}}>회원가입</Link></li>
+          <li><Link to='/gp_login' title='로그인' onClick={() => {setMenuOpen(false)}}>로그인</Link></li>
+          <li><Link to='/gp_register' title='회원가입' onClick={() => {setMenuOpen(false)}}>회원가입</Link></li>
           <li><Link to='/order' title='주문조회' onClick={() => {setMenuOpen(false)}}>주문조회</Link></li>
           <li><Link to='/cart' title='장바구니' onClick={() => {setMenuOpen(false)}}>장바구니</Link></li>
         </ul>
