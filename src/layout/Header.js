@@ -19,7 +19,7 @@ function Header(props) {
     <header>
       {/* 상단 헤더 영역 */}
       <h1>
-        <Link to='/ginipet' title='메인 페이지'>
+        <Link to='/' title='메인 페이지'>
           <img src={`${process.env.PUBLIC_URL}/images/logo_clr.png`} alt='로고'></img>
         </Link>
       </h1>
