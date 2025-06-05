@@ -26,7 +26,7 @@ function App() {
 
         {/* 상단 내비게이션 메뉴 클릭시 해당 콤포넌트와 이름이 일치하는 페이지가 나오게... */}
         <Routes>
-          <Route path='/ginipet' element={<Main />} />
+          <Route path='/' element={<Main />} />
           {/* 메인 외 메뉴 */}
           <Route path='/intro' element={<Intro />} />
           <Route path='/info' element={<Info />} />
