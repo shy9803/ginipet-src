@@ -48,7 +48,7 @@ function Join(props) {
         email: form.email
       });
 
-      setSuccess('회원가입이 완료되었습니다.');
+      setSuccess('회원가입이 완료되었습니다.\n 3초 후에 로그인 페이지로 이동합니다.');
 
       setForm({ // 폼 양식에 데이터를 모두 초기화한다.(비어준다.)
         username: '',
