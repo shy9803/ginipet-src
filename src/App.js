@@ -34,8 +34,8 @@ function App() {
           <Route path='/customer' element={<Customer />} />
 
           {/* 회원가입, 로그인 컴포넌트 */}
-          <Route path='/login' element={<Login />} />
-          <Route path='/register' element={<Join />} />
+          <Route path='/gp_login' element={<Login />} />
+          <Route path='/gp_register' element={<Join />} />
           {/* 주문조회, 장바구니 컴포넌트 */}
           <Route path='/order' element={<Order />} />
           <Route path='/cart' element={<Cart />} />
