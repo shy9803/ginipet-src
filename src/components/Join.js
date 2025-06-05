@@ -59,7 +59,7 @@ function Join(props) {
       });
 
       setTimeout(() => {
-        navigate('/login');
+        navigate('/gp_login');
       }, 3000); // 3초 후 페이지 이동
 
     } catch(error){ // 전송 실패시 에러 출력
