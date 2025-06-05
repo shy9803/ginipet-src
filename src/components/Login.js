@@ -62,7 +62,7 @@ function Login(props) {
         <p className='btn-group'>
           <Link to='/id_search'>아이디 찾기</Link>&#10072;
           <Link to='/pw_search'>비번 찾기</Link>&#10072;
-          <Link to='/register'>회원가입</Link>
+          <Link to='/gp_register'>회원가입</Link>
         </p>
 
         {error && <p style={{color: 'red'}}>{error}</p>}
