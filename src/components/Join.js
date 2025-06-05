@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 function Join(props) {
   // 1. 상태변수 선언하기
@@ -13,6 +14,8 @@ function Join(props) {
 
   const [error, setError] = useState(''); // 회원가입 실패한 경우 출력되는 변수
   const [success, setSuccess] = useState(''); // 회원가입 성공시 출력되는 변수
+
+  const navigate = useNavigate();
 
   // 2. handleChange 함수
   const handleChange = (e) => {
@@ -54,6 +57,11 @@ function Join(props) {
         tel: '',
         email: ''
       });
+
+      setTimeout(() => {
+        navigate('/login');
+      }, 3000); // 3초 후 페이지 이동
+
     } catch(error){ // 전송 실패시 에러 출력
       setError('회원가입 실패 : 아이디가 이미 존재하거나 서버 오류입니다.');
     }
