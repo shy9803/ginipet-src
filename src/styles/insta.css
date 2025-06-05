@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.insta {
+  background: #efefef;
+}
+.insta > h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.insta > h2 img {
+  display: inline;
+  margin: 0 1%;
+  width: 3.4%;
+}
+
+.insta_cont {
+  width: 100%;
+}
+.insta_cont img {
+  width: 100%;
+  max-width: 284px;
+  height: 100%;
+  max-height: 284px;
+}
+
+.recent, .best {
+  display: flex;
+  padding: 15px 0;
+  width: 61.2%;
+  margin: 0 auto;
+}

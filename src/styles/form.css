@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.log_form {
+  padding: 15px 0;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.log_form h2 {
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+}
+
+.log_form label {display: none;}
+
+#username, #password, #password2, #tel, #email,
+.log_form input[type=submit], .log_form button[type=submit] {
+  padding: 10px;
+  width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background: #fff;
+}
+
+#username, #password, #password2, #tel, #email {
+  border: 1px solid #666;
+}
+
+.log_form input[type=submit], .log_form button[type=submit] {
+  border: none;
+  cursor: pointer;
+  background: #eee;
+}
+
+.log_form input[type=submit]:hover, .log_form button[type=submit]:hover {
+  background: #ddd;
+}
+
+.log_form .btn-group {
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
+.log_form .btn-group a {
+  padding: 0 10px;
+}
+
+.agree_area {
+  margin: 8px 0;
+}
+.agree_area label {
+  display: inline;
+  margin-left: 5px;
+}

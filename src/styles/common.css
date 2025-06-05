@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* 공통서식 */
+
+:root {
+  --base_color: #333;
+  --a_color: #525d9f; /* 강조(accent) */
+  --f_size16: 16px;
+}
+
+/* 구글 웹폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+/* Thin 100, ExtraLight 200, Light 300, Regular 400, Medium 500, SemiBold 600, Bold 700, ExtraBold 800, Black900 */
+
+body, a {
+  font-family: "Noto Sans KR", '돋움체', serif;
+  font-size: var(--f_size16);
+  color: var(--base_color);
+}
+
+/* 링크 텍스트, 컬러 */
+a {
+  text-decoration: none;
+  color: var(--base_color);
+}
